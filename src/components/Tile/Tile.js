@@ -12,7 +12,7 @@ const Tile = (props) => {
 
     return (
         <div className='Tile' style={colour}>
-            {selmatchtrue ? <svg/> : null}
+            {selmatchtrue ? <props.svg/> : null}
         </div>
     )
 }
